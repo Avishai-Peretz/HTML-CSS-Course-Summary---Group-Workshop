@@ -18,17 +18,10 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
             <link rel="stylesheet" href="./css/utilities.css">
             <link rel="stylesheet" href="./css/style.css">
+            <link rel="stylesheet" href="css/style-eyal.css">
             <title>Tesla Rebuild</title>
         </head>
-        
-        <body>
-            <header>
-                <nav id="navtop" class="row-c-c navtop">                    
-                    <nav id="nav_top__center" class="row-c-sb nav nav-top nav_top__center">
-                        <a href="#lobby" class="txt-black nav_top_link txt-18 fw_7">Team DAEYM</a>
-                    </nav>
-                </nav>
-            </header>
+        <body>          
             <main id="lobby" class="lobby grid">
                 <div id="card_1" class="cards column-c-c">
                     <div class="background_pic_1 card_background txt_align"></div>
@@ -55,10 +48,10 @@
                     </div> 
                 </div>
                 <div id="card_3" class="cards">
-                    <div class="background_pic_3 card_background column-c-c"></div>
-                    <h2>Full Name</h2>
+                    <div class="background_pic_3 card_background column-c-c eyal"></div>
+                    <h2>Eyal Sinay</h2>
                     <div class="buttons row-c-c">
-                        <a href="" class="row-c-c txt_deco fw_2">
+                        <a href="#page_3" class="row-c-c txt_deco fw_2">
                             <div id="p3_plus_btn" class="row-c-c btn_plus_light fw_4"></div>                 
                             <div id="p3_btn_2" class="row-c-c txt-white read_btn_light txt-12 fw_7">Click For More Info</div>
                         </a>
@@ -66,7 +59,7 @@
                 </div>
                 <div id="card_4" class="cards">
                     <div class="background_pic_4 card_background column-c-c"></div>
-                    <h2>Full Name</h2>
+                    <h2>Matan Waiss</h2>
                     <div class="buttons row-c-c">
                         <a href="" class="row-c-c txt_deco fw_2">
                             <div id="p3_plus_btn" class="row-c-c btn_plus_light fw_4"></div>                 
@@ -138,7 +131,7 @@
                 </div>
             </section>
             <section id="page_3" class="pages column-c-c" data-pages="page">
-                    <main id="Page_3__main" class="picture column-fe-c" data-pages="page-main">                  
+                    <main id="Page_3__main" class="picture column-fe-c eyal" data-pages="page-main">                  
                     </main>
                     <footer id="page_3__footer" class="row-c-c" data-pages="footer">
                         <div id="p3_footer_l" class="culomn-c-c" data-pages="footer_l">
@@ -148,7 +141,7 @@
                             
                             <div>
                                 <div class="buttons row-c-c">
-                                    <a href="" class="row-c-c txt_deco fw_2">
+                                    <a href="Pages/eyal_portfolio/eyal_portfolio.html" class="row-c-c txt_deco fw_2">
                                         <div id="p3_plus_btn" class="row-c-c btn_plus_dark fw_4" data-pages="plus_btn"></div>                 
                                         <div id="p3_btn_2" class="row-c-c txt-black read_btn_dark txt-17 fw_7" data-pages="p_btn_2">My Page</div>
                                     </a>
@@ -164,12 +157,12 @@
                 </div>
             </section>
             <section id="page_4" class="pages column-c-c" data-pages="page">
-                    <main id="Page_4__main" class="picture column-fe-c" data-pages="page-main">                  
+                    <main id="Page_4__main" class="picture column-fe-c" data-pages="page-4">                  
                     </main>
                     <footer id="page_4__footer" class="row-c-c" data-pages="footer">
                         <div id="p4_footer_l" class="culomn-c-c" data-pages="footer_l">
                             <div class="culomn-c-c">
-                                <h2 class="culomn-c-c txt_28">Full Name</h2>
+                                <h2 class="culomn-c-c txt_28">Matan Waiss</h2>
                             </div>
                             
                             <div>
@@ -219,108 +212,13 @@
         
         <a href="#page_1"><aside id="aside_r_t" class="aside_r_t" ></aside></a>
         <aside id="aside-l" class="aside column-sb-c">
+            <nav id="nav_page_lobby" class="nav-con  row-c-sb"><a href="#lobby"><div id="p_lobby_link" class="nav-page nav-con column-c-c"></div></a></nav>
             <nav id="nav_page_1" class="nav-con  row-c-sb"><a href="#page_1"><div id="p_1_link" class="nav-page nav-con column-c-c"></div></a></nav>
             <nav id="nav_page_2" class="nav-con  row-c-sb"><a href="#page_2"><div id="p_2_link" class="nav-page nav-con column-c-c"></div></a></nav>
             <nav id="nav_page_3" class="nav-con  row-c-sb"><a href="#page_3"><div id="p_3_link" class="nav-page nav-con column-c-c"></div></a></nav>
             <nav id="nav_page_4" class="nav-con  row-c-sb"><a href="#page_4"><div id="p_4_link" class="nav-page nav-con column-c-c"></div></a></nav>
             <nav id="nav_page_5" class="nav-con  row-c-sb"><a href="#page_5"><div id="p_5_link" class="nav-page nav-con column-c-c"></div></a></nav>
-            <nav id="nav_page_6" class="nav-con  row-c-sb"><a href="#Lobby"><div id="p_6_link" class="nav-page nav-con column-c-c"></div></a></nav>
         </aside>        
-        <script>
-    
-            const navtop = document.getElementById('navtcop');
-            const tesla_logo = document.getElementById('tesla_logo');
-            const nav_top__center = document.getElementById('nav_top__center');
-            const nav_top__right = document.getElementById('nav_top__right');
-            const model_3 = document.getElementById('model_3');
-            const info_1 = document.getElementById('info_1');
-            const aside_r_t = document.getElementById('aside_r_t');
-            const aside_r_b = document.getElementById('aside_r_b');
-            const safety_anim_1 = document.getElementById('safety_anim_1');
-            const safety_anim_2 = document.getElementById('safety_anim_2');
-            const safety_anim_3 = document.getElementById('safety_anim_3');
-            const p_1_link = document.getElementById('p_1_link');
-            const p_2_link = document.getElementById('p_2_link');
-            const p_3_link = document.getElementById('p_3_link');
-            const nav_page_1 = document.getElementById('nav_page_1');
-            const nav_page_2 = document.getElementById('nav_page_2');
-            const nav_page_3 = document.getElementById('nav_page_3');
-            
-            
-    
-            window.onscroll = function() {
-                        if(window.pageYOffset > 1) {
-                        (
-                        aside_r_b.classList.remove('none')
-                        );
-                        };
-                       //page-1
-                        if(window.pageYOffset <600 && window.pageYOffset >= 0) {
-                        (                                               
-                        tesla_logo.classList.remove('tran_2'),
-                        nav_top__center.classList.remove('tran_2'),
-                        nav_top__right.classList.remove('tran_2'),
-                        aside_r_t.classList.remove('shown'),
-                        info_1.classList.remove('tran'),
-                        model_3.classList.remove('tran'),
-                        nav_page_1.classList.add('p1_after'),
-                        p_1_link.classList.add('current_light')
-                        );                
-                        } else {                               
-                                tesla_logo.classList.add('tran_2'),
-                                nav_top__center.classList.add('tran_2'),
-                                nav_top__right.classList.add('tran_2'),
-                                aside_r_t.classList.add('shown'),
-                                info_1.classList.add('tran'),
-                                model_3.classList.add('tran'),
-                                nav_page_1.classList.remove('p1_after'),
-                                p_1_link.classList.remove('current_light')
-                                }
-                        if(window.pageYOffset <800 && window.pageYOffset >600) {
-                        ( 
-                        navtop.classList.remove('nav_none')                                               
-                        );                
-                        } else {
-                                };
-    
-                        //page-2
-                        if(window.pageYOffset < 1300 && window.pageYOffset > 800) {
-                        (                     
-                        
-                        safety_anim_1.classList.remove('tran_1'),
-                        safety_anim_2.classList.remove('tran_1'),
-                        safety_anim_3.classList.remove('tran_1'),                    
-                        p_2_link.classList.add('current_dark'),                    
-                        nav_page_2.classList.add('p2_after')                   
-                        )                                     
-                        } else {     
-                            (
-                                safety_anim_1.classList.add('tran_1'),                           
-                                safety_anim_2.classList.add('tran_1'),                           
-                                safety_anim_3.classList.add('tran_1'),
-                                p_2_link.classList.remove('current_dark'),                                                       
-                                nav_page_2.classList.remove('p2_after')                                                 
-                            )                          
-                        }
-                        //page-3
-                        if(window.pageYOffset > 1300 && window.pageYOffset < 2500) {
-                        (                           
-                        p_3_link.classList.add('current_light')
-                        );                                      
-                        } else {     
-                            (
-                                p_3_link.classList.remove('current_light')                           
-                            );                          
-                        }
-                        if(window.pageYOffset > 1300) {
-                        ( nav_page_3.classList.add('p3_after') );
-                        }else{ 
-                            nav_page_3.classList.remove('p3_after')
-                        }
-                    }
-                
-                 
-        </script>
         <link rel="stylesheet" href="media.css">
     </body>
     </html>
