@@ -52,77 +52,18 @@ p {
   width: 100%;
   height: 100vh;
 }
-/* ----Page_1---- */
-
-#navtop {
-  position: fixed;
-}
-
-.navtop {
-  display: flex;
-  width: 100vw;
-  min-height: 56px;
-  padding: 0 32px;
-  padding-top: 20px;
-  opacity: 1;
-  transition: 1s;
-}
-
-#tesla_logo {
-  min-width: 122px;
-  margin-left: 0.9%;
-  transition: 1s;
-}
-#tesla_logo a {
-  width: 100%;
-  height: 100%;
-}
-
-#nav_top__center {
-  width: 624px;
-  transition: 1s;
-  height: 32px;
-  flex-direction: row;
-  align-items: center;
-}
-
-#nav_top__center a {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-#nav_top__center {
-  height: 32px;
-  flex-direction: row;
-  align-items: center;
-}
-#nav_top__center a {
-  display: block;
-  padding-top: 0%;
-}
-.nav_top_link:hover {
-  padding: 5px 20px;
-  background-color: #888;
-  border-radius: 20px;
-  color: white;
-  opacity: 0.6;
-  transition: 0.3s;
-}
-
-#nav_top__right a {
-  padding: 4px 16px;
-  transition: 1s;
-}
 
 /* Main */
 #lobby {
   background: url(../img/main-2.avif) center center/cover no-repeat;
+  width: 100vw;
+  height: 100vh;
 }
 .grid {
   display: grid;
   padding: 2% 5%;
   height: 100vh;
-  grid-gap: 0.4vw;
+  grid-gap: 2vw;
   grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
   /* grid-display-area:
     'card_1 spacer-1 card-2'
@@ -135,9 +76,11 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgb(145, 145, 255);
+  background-color: rgb(103, 103, 116);
   border-radius: 20px;
-  margin: 50% 8%;
+  height: 30%;
+  width: 100%;
+  margin-top:20% ;
   opacity: 0.6;
 }
 .card_background {
@@ -172,7 +115,8 @@ p {
 /* dima card & page backgorung img */
 
 #Page_5__main {
-  background: url('https://scontent.ftlv18-1.fna.fbcdn.net/v/t1.6435-9/62116163_847902768907389_4615702517223784448_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=174925&_nc_ohc=8ICy2GaXU5EAX-SerrE&_nc_ht=scontent.ftlv18-1.fna&oh=00_AT853dVyotj5jRJ3q3i4Rw4q5KEGN3KAsG12FLfQS6ZXHA&oe=627164CD') center center/cover no-repeat;
+  background: url('../img/Dima\ Page.jpg') center center/contain no-repeat;
+  object-fit: fit;
 }
 
 #card_5 {
