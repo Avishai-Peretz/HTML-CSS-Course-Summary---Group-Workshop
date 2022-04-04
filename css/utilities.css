@@ -279,6 +279,7 @@ src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-XLight_Web.w
     align-items: center;
     justify-content: center;
     bottom: 20px;
+    left:45%;
     font-size: 32px;
     border-radius: 50%;
     color: #ffffff;
@@ -293,6 +294,22 @@ src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-XLight_Web.w
 }
 @keyframes arrow {
     50%{transform: translateY(-30px);}
+}
+
+.aside_r_t {
+    position:absolute;
+    width: 5px;
+    height: 5px;
+    padding: 13px;
+    margin: 0;
+    background: url(../SVG/svgexport-24.svg) center center/contain no-repeat;
+    position: fixed;
+    font-size: 25px;
+    right: 30px;
+    top: 20px;
+    transition: color .33s ease;
+    cursor: pointer;
+    
 }
 
 

@@ -63,6 +63,7 @@ body {
   height: 100vh;
   border: white 1px solid;
   box-shadow: #f4f4f4 -10px 2px -20px 1px;
+  position: relative;
 
 }
 #lobby::before {
