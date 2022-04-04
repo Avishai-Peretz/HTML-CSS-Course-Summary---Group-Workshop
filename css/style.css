@@ -92,12 +92,24 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgb(103, 103, 116);
   border-radius: 20px;
   height: 30%;
-  width: 100%;
+  width: 300px;
   margin-top: 20%;
-  opacity: 0.6;
+  margin-left: 24%;
+  opacity: 1;
+  position: relative;
+}
+.spacer-1::before {
+  content: '';
+  position: absolute;
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  height: 40%;
+  width: 300px;
+  top: 25px;
+  left: 0;
+  opacity: 0.3;
 }
 .card_background {
   border-radius: 20px;

@@ -271,7 +271,29 @@ src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-XLight_Web.w
     background-color:#171a20;
     color: #fff;
 }
-
+.bright_arrow{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 20px;
+    font-size: 32px;
+    border-radius: 50%;
+    color: #ffffff;
+    animation: arrow 2s infinite;
+    transition: color 0.8s, background-color 0.4s;
+}
+.bright_arrow:hover{
+    cursor: pointer;
+    animation-play-state: paused;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+@keyframes arrow {
+    50%{transform: translateY(-30px);}
+}
 
 
 .btn_reset {
