@@ -163,8 +163,8 @@ p {
 <<<<<<< HEAD
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: white;
     margin: auto;
