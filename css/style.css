@@ -52,10 +52,26 @@ p {
   width: 100%;
   height: 100vh;
 }
-
+body {
+  background-color: #333;
+}
 /* Main */
-#lobby {
+#lobby { 
+  background: #333;
+  opacity: 1;
+  width: 100vw;
+  height: 100vh;
+  border: white 1px solid;
+  box-shadow: #f4f4f4 -10px 2px -20px 1px;
+
+}
+#lobby::before {
+  content: '';
+  position: absolute;
   background: url(../img/main-2.avif) center center/cover no-repeat;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
 }
@@ -88,6 +104,26 @@ p {
   width: 100%;
   height: 40%;
 }
+.card_h2 {
+    background-color: #333;
+    width:100%;
+    opacity: 0.9;
+    color: white;
+}
+.read_btn_light{
+    background-color: #333;
+
+  }
+.cards a {
+height: 100%;
+width: 100%;
+}
+
+.pages {
+  border-bottom: white 1px solid;
+  box-shadow: #f4f4f4 10px 2px 20px 1px;
+}
+
 #Page_1__main {
   background: url(https://scontent-frt3-2.xx.fbcdn.net/v/t39.30808-6/230501349_10226088513983470_4698312732328757452_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=730e14&_nc_ohc=Y25iW0oolIQAX8z4uIg&_nc_ht=scontent-frt3-2.xx&oh=00_AT8nVl-E_TBtrck9L5MthHeihK2HCI5B_iA6sObxm0uZJQ&oe=624F4A08)
     center center/cover no-repeat;
@@ -97,10 +133,6 @@ p {
   background: url(https://scontent-frt3-1.xx.fbcdn.net/v/t39.30808-6/275003146_10227309825355491_8756741106808196718_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=S5kBI6C2CzUAX_r9t-H&_nc_ht=scontent-frt3-1.xx&oh=00_AT8YFvljOKpn6Jz4TxM9yyI3CMMB1GFq0gm8qJ5_qd2jNg&oe=6250BDF6)
     center center/cover no-repeat;
 }
-#card_1 a {
-height: 100%;
-width: 100%;
-}
 
 .card_background.yanir {
   background: url("https://i.ibb.co/C80LJRr/87574403-2496608350592047-2298575007237370166-n-1.jpg")
@@ -109,15 +141,57 @@ width: 100%;
 #Page_2__main {
   background: url(https://i.ibb.co/C80LJRr/87574403-2496608350592047-2298575007237370166-n-1.jpg)
     center center/contain no-repeat;
-  border-radius: 20px;
   width: 100%;
-  height: 40%;
+  height: 70%;
+  background-color: #f4f4f4;
 }
 
+#page_2__footer {
+  color: #f4f4f4;
+  width: 50%;
+  height: 30%;
+}
+#p2_footer_l {
+  margin-top: 40px;
+}
+
+
 /* eyal */
+
+#page_3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  width: 100vw;
+
+}
+#page_3_main_container {
+  width: 50%;
+  height: 100%;
+  background-color: #f4f4f4;
+  box-shadow: #333 10px 2px 20px 1px;
+}
+
 #Page_3__main {
-  background: url("../Pages/eyal_portfolio/images/IMG_3985.jpg") center center/contain no-repeat;
-  object-fit: fit;
+  background: url("../Pages/eyal_portfolio/images/IMG_3985.jpg") center center/cover no-repeat;
+  object-fit:contain;
+  margin-top: 15%;
+  max-width: 100%;
+  max-height: 70%;
+  border-bottom: #333;
+
+}
+ 
+
+#page_3__footer {
+  color: #f4f4f4;
+  width: 50%;
+}
+#p3_footer_l > a {
+  color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 
 #card_3 {
@@ -203,12 +277,15 @@ width: 100%;
 }
 
 [data-pages="footer_l"]:first-child {
-  max-width: 19.8%;
+  max-width: 30%;
 }
 
 [data-pages="footer_r"] {
   max-height: 100%;
   text-align: start;
+}
+.picture {
+  background: white;
 }
 
 .aside_r_t {
@@ -253,18 +330,25 @@ width: 100%;
   bottom: 35vh;
   opacity: 1;
 }
+#aside-l {
+    width: 70px;
+    hight:100%;
+    
+}
+
 .nav-con {
   width: 100%;
   height: 10%;
   cursor: pointer;
+  font-weight: 700;
+  background-color: rgb(148, 145, 145);
+  border-radius: 10px ;
+}
+.nav-con:hover {
+    box-shadow: rgb(100, 100, 100) 1px 1px 30px 0px;
+    opacity: 0.7;
 }
 
-.nav-page {
-  position: relative;
-  background-color: rgb(148, 145, 145);
-  width: 10%;
-  height: 100%;
-}
 
 .nav-con a {
   width: 100%;
@@ -299,57 +383,52 @@ width: 100%;
     font-weight: 400;
     color: white; */
 
-#nav_page_1:hover::after {
+#nav_lobby:after {
   content: "Lobby";
   position: fixed;
-  left: 20px;
-  font-size: 12px;
-  font-weight: 400;
-  color: white;
+  left: 17px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
 }
-#nav_page_2:hover::after {
+#nav_page_1:after {
   content: "Avishai";
   position: fixed;
-  left: 20px;
-  font-size: 12px;
-  font-weight: 400;
-  color: white;
+  left: 17px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
 }
-#nav_page_3:hover::after {
+#nav_page_2:after {
   content: "Yanir";
   position: fixed;
-  left: 20px;
-  font-size: 12px;
-  font-weight: 400;
-  color: white;
+  left: 17px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
 }
-#nav_page_4:hover::after {
+#nav_page_3:after {
   content: "Eyal";
   position: fixed;
-  left: 20px;
-  font-size: 12px;
-  font-weight: 400;
-  color: white;
+  left: 17px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
 }
-#nav_page_5:hover::after {
+#nav_page_4:after {
   content: "Matan";
   position: fixed;
-  left: 20px;
-  font-size: 12px;
-  font-weight: 400;
-  color: white;
+  left: 17px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
 }
-#nav_page_6:hover::after {
+#nav_page_5:after {
   content: "Dima";
   position: fixed;
-  left: 20px;
-  font-size: 12px;
-  font-weight: 400;
-  color: white;
+  left: 17px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
 }
 
-.top_nav_link {
-  height: 100%;
-  padding: auto;
-  margin: auto;
-}
