@@ -106,7 +106,7 @@ body {
   position: absolute;
   background-color: #f8f8f8;
   border-radius: 20px;
-  height: 40%;
+  height: 50%;
   width: 300px;
   top: 25px;
   left: 0;
@@ -330,18 +330,6 @@ width: 100%;
   background: white;
 }
 
-.aside_r_t {
-  display: none;
-  padding: 13px;
-  margin: 0;
-  background: url(../SVG/svgexport-24.svg) center center/contain no-repeat;
-  position: fixed;
-  font-size: 25px;
-  right: 30px;
-  top: 20px;
-  transition: color 0.33s ease;
-  cursor: pointer;
-}
 
 .aside_r_t.shown {
   display: block;

@@ -67,6 +67,7 @@
       .page_name {
         margin:auto;
       }
+      .spacer-1::before { display: none;}
     #page_2 {
         display: flex;
         flex-direction: column;
