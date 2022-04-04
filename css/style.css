@@ -119,15 +119,6 @@ p {
   background: url(../img/main-2.avif) center center/cover no-repeat;
 }
 .grid {
-<<<<<<< HEAD
-    display: grid;
-    border: 3px red solid;
-    padding: 1% 5% 3% 5%;
-    height: 100vh;
-    grid-gap: .4vw;
-    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
-    /* grid-display-area:
-=======
   display: grid;
   border: 3px red solid;
   padding: 2% 5%;
@@ -135,7 +126,6 @@ p {
   grid-gap: 0.4vw;
   grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
   /* grid-display-area:
->>>>>>> 88190f8e740cd7cecadfc8c54b325129d935ed2f
     'card_1 spacer-1 card-2'
     'card_3 card_4 card_5'; */
 }
@@ -160,22 +150,6 @@ p {
 }
 
 .cards {
-<<<<<<< HEAD
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    margin: auto;
-    padding: 2%;
-    height: 35vh;
-    width:20vw;
-    background-color: #333;
-    opacity: 0.9;
-    border-radius: 20px;
-    box-shadow: rgb(100, 100, 100) 1px 1px 30px 0px ;
-=======
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -191,7 +165,6 @@ p {
   opacity: 0.9;
   border-radius: 20px;
   box-shadow: rgb(100, 100, 100) 1px 1px 30px 0px;
->>>>>>> 88190f8e740cd7cecadfc8c54b325129d935ed2f
 }
 
 /* ----Pages---- */
@@ -328,55 +301,6 @@ p {
     font-weight: 400;
     color: white; */
 
-<<<<<<< HEAD
-#nav_page_lobby:after {
-    content: "Lobby";
-    position: fixed;
-    left: 20px;
-    font-size: 12px;
-    font-weight: 400;
-    color: white;
-}
-#nav_page_1:after {
-    content: "Avishai";
-    position: fixed;
-    left: 20px;
-    font-size: 12px;
-    font-weight: 400;
-    color: white;
-}
-#nav_page_2:after {
-    content: "Yanir";
-    position: fixed;
-    left: 20px;
-    font-size: 12px;
-    font-weight: 400;
-    color: white;
-}
-#nav_page_3:after {
-    content: "Eyal";
-    position: fixed;
-    left: 20px;
-    font-size: 12px;
-    font-weight: 400;
-    color: white;
-}
-#nav_page_4:after {
-    content: "Matan";
-    position: fixed;
-    left: 20px;
-    font-size: 12px;
-    font-weight: 400;
-    color: white;
-}
-#nav_page_5:after {
-    content: "Dima";
-    position: fixed;
-    left: 20px;
-    font-size: 12px;
-    font-weight: 400;
-    color: white;
-=======
 #nav_page_1:hover::after {
   content: "Lobby";
   position: fixed;
@@ -424,7 +348,6 @@ p {
   font-size: 12px;
   font-weight: 400;
   color: white;
->>>>>>> 88190f8e740cd7cecadfc8c54b325129d935ed2f
 }
 
 .top_nav_link {
