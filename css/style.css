@@ -361,3 +361,11 @@ p {
   padding: auto;
   margin: auto;
 }
+
+#Page_1__main {
+    background: url(https://scontent-frt3-2.xx.fbcdn.net/v/t39.30808-6/230501349_10226088513983470_4698312732328757452_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=730e14&_nc_ohc=Y25iW0oolIQAX8z4uIg&_nc_ht=scontent-frt3-2.xx&oh=00_AT8nVl-E_TBtrck9L5MthHeihK2HCI5B_iA6sObxm0uZJQ&oe=624F4A08) center center/cover no-repeat;
+}
+#card_1 {
+    text-shadow: #333 3px 3px;
+    background: url(https://scontent-frt3-1.xx.fbcdn.net/v/t39.30808-6/275003146_10227309825355491_8756741106808196718_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=S5kBI6C2CzUAX_r9t-H&_nc_ht=scontent-frt3-1.xx&oh=00_AT8YFvljOKpn6Jz4TxM9yyI3CMMB1GFq0gm8qJ5_qd2jNg&oe=6250BDF6) center center/cover no-repeat;
+}
