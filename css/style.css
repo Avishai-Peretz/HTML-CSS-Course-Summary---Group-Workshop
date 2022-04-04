@@ -113,7 +113,11 @@ body {
 .read_btn_light{
     background-color: #333;
 
-  }
+}
+
+.page_link {
+  width: 300px;
+}
 .cards a {
 height: 100%;
 width: 100%;
@@ -201,10 +205,25 @@ width: 100%;
 
 
 /* dima card & page backgorung img */
+#page_5 {
+  width: 100vw;
+  height: 100vh;
+}
+#page_5_main_container {
+  display: flex;
+  background-color: #f4f4f4;
+  width: 50%;
+  height: 100%;
+}
 
 #Page_5__main {
   background: url("../img/Dima\ Page.jpg") center center/contain no-repeat;
   object-fit: fit;
+  height: 100%;
+}
+
+#page_5__footer {
+  width: 50%;
 }
 
 #card_5 {
@@ -212,6 +231,7 @@ width: 100%;
   background: url("https://scontent.ftlv18-1.fna.fbcdn.net/v/t1.6435-9/62116163_847902768907389_4615702517223784448_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=174925&_nc_ohc=8ICy2GaXU5EAX-SerrE&_nc_ht=scontent.ftlv18-1.fna&oh=00_AT853dVyotj5jRJ3q3i4Rw4q5KEGN3KAsG12FLfQS6ZXHA&oe=627164CD")
     center center/cover no-repeat;
 }
+
 
 #page_4_main_container {
   width: 100%;

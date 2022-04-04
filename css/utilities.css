@@ -129,6 +129,21 @@ src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-XLight_Web.w
 .buttons {
     width: 100%;
 }
+.buttons:hover > a .btn_plus_light{
+    background: url(../SVG/svgexport-12.svg) no-repeat left center;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: #f4f4f4;
+    border: 3px #f4f4f4 solid;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    opacity: 0.5;
+    transition: 0.5s ;
+}
+
 .buttons a {
     margin: 20px;
 }
@@ -182,14 +197,29 @@ src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-XLight_Web.w
     font-size: 35px;
 }
 .btn_plus_light {
-    background: url(../SVG/svgexport-p_1_link12.svg) no-repeat left center;
+    background: url(../SVG/svgexport-22.svg) no-repeat center center/cover;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.5s ;
+}
+.btn_plus_light:hover {
+    background: url(../SVG/svgexport-12.svg) no-repeat left center;
     width: 40px;
     height: 40px;
-    border: 3px #fff solid;
+    margin: 5px;
+    background-color: #f4f4f4;
+    border: 3px #f4f4f4 solid;
     border-radius: 50%;
-    color: #ffffff;
+    color: #fff;
     text-align: center;
     font-size: 35px;
+    opacity: 0.5;
+    transition: 0.5s ;
 }
 .btn-2l:hover {
     background-color:#171a20;
@@ -208,20 +238,27 @@ src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-XLight_Web.w
     color: #171a20;
     text-align: center;   
 }
-.btn_plus_light {
-    width: 40px;
-    height:40px;
-    margin: 5px;
-    border: 3px #fefeff solid; 
-    border-radius: 50%;
-    color: #ffffff;
-    text-align: center;   
-}
+
 .btn_plus_dark:hover {
     background-color:#171a20;
     color: #171a20;
     font-size: 40px;
 }
+
+.read_btn_light:hover > .btn_plus_light {
+        background: url(../SVG/svgexport-12.svg) no-repeat left center;
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+        background-color: #f4f4f4;
+        border: 3px #f4f4f4 solid;
+        border-radius: 50%;
+        color: #fff;
+        text-align: center;
+        font-size: 35px;
+        opacity: 0.5;
+        transition: 0.5s ;
+    }
 
 #btn-2 {
     width:110px;
@@ -553,56 +590,22 @@ _________________________________________________
 
 .current_light{ 
     width: 14%;
-    background-color: white;
+    background-color: #333;
     border-radius: 5px;
-    color: #fff;
+    color: #333;
     opacity: 1;
     box-shadow: 1px 1px 0px 1px;
 }
 .current_dark{ 
     width: 14%;
-    background-color: #171a20;
-    color: #000;
     border-radius: 5px;
     color:#171a20;
     opacity: 1;
     box-shadow: 1px 2px 0px 1px;
 }
-.p1_after::after{
-    content: "MODEL 3";
-    position: fixed;
-    left: 20px;
-    font-size: 12px;
-    font-weight: 400;
-    color: #ffffff;
-    font-weight: 700;
-    z-index: 15;
-    transition: 0.5S ;
-}
-.p2_after::after{
-    content: "SAFETY";
-    position: fixed;
-    left: 20px;
-    font-size: 12px;
-    font-weight: 400;
-    color: #171a20;
-    font-weight: 700;
-    z-index: 15;
-    transition: 0.5S;
-}
-.p3_after::after{
-    content: "PERFORMANCE";
-    position: fixed;
-    left: 20px;
-    font-size: 12px;
-    font-weight: 400;
-    color: #ffffff;
-    font-weight: 700;
-    z-index: 15;
-    transition: 0.5S;
-}
+
 .aside_l_dark {
-    background-color: #171a20;
+    background-color: #f3f3f3;
 }
 
 * {
