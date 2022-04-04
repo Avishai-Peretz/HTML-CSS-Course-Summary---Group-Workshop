@@ -193,4 +193,24 @@
       </div>
     </footer>
   </body>
+  <script>
+    const sectionAbout = document.querySelector("#about");
+    const icons = document.getElementsByClassName("icons");
+
+    const obs = new IntersectionObserver(
+      (enteries) => {
+        const ent = enteries[0].isIntersecting;
+
+        if (ent) {
+          icons[0].style.display = "flex";
+        }
+      },
+      {
+        root: null,
+        threshold: 0,
+        rootMargin: "-400px",
+      }
+    );
+    obs.observe(sectionAbout);
+  </script>
 </html>
