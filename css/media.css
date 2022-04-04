@@ -5,6 +5,270 @@
         justify-content: center;
         justify-items: center;
     }
+
+    .pages {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+
+    #page_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:center;
+        align-self: center;    
+        text-align: center;
+    }
+
+      #page_1_main_container {
+        width: 100%;
+        height: 40%;
+        background-color: #f4f4f4;
+        box-shadow: #333 10px 2px 20px 1px;
+      }
+      
+      #Page_1__main {
+        background: url("https://scontent-frt3-2.xx.fbcdn.net/v/t39.30808-6/230501349_10226088513983470_4698312732328757452_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=730e14&_nc_ohc=Y25iW0oolIQAX9TIAZO&_nc_ht=scontent-frt3-2.xx&oh=00_AT_D_mi9sS8IRWjv0BhwUb1QkErXaVO-usl2tIJMwfRJuQ&oe=62514448") center center/cover no-repeat;
+        object-fit:contain;
+        max-width: 100%;
+        max-height: 40%;
+        margin: auto;
+        border-bottom: #333;
+;
+      
+      }
+       
+      
+      #page_1__footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        color: #f4f4f4;
+        width: 375px;
+        min-height: 60%;
+        text-align: center;
+      }
+
+      #page_1__footer_l h2{
+          width: 375px !important;
+          height: 25%;
+          text-align: center
+      }
+      #p1_footer_r {
+          width: 375px;
+          height: 25%;
+          text-align: center
+      }
+      .page_name {
+        margin:auto;
+      }
+    #page_2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-self: center;    
+    }
+
+      #page_2_main_container {
+        width: 100%;
+        height: 40%;
+        background-color: #f4f4f4;
+        box-shadow: #333 10px 2px 20px 1px;
+      }
+      
+      #Page_2__main {
+        background: url("https://i.ibb.co/C80LJRr/87574403-2496608350592047-2298575007237370166-n-1.jpg") center center/cover no-repeat;
+        object-fit:contain;
+        max-width: 100%;
+        max-height: 40%;
+        margin: auto;
+        border-bottom: #333;
+      
+      }
+       
+      
+      #page_2__footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-self: center;
+        color: #f4f4f4;
+        width: 100%;
+        min-height: 60%;
+        text-align: center;
+      }
+      #p2_footer_l > a {
+        color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+      #p2_footer_l {
+          width: 95%;
+          height: 25%;
+      }
+      #p2_footer_r {
+          width: 95%;
+          height: 25%;
+      }
+    #page_3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-self: center;    
+    }
+
+      #page_3_main_container {
+        width: 100%;
+        height: 40%;
+        background-color: #f4f4f4;
+        box-shadow: #333 10px 2px 20px 1px;
+      }
+      
+      #Page_3__main {
+        background: url("../Pages/eyal_portfolio/images/IMG_3985.jpg") center center/cover no-repeat;
+        object-fit:contain;
+        max-width: 35%;
+        max-height: 100%;
+        margin: auto;
+        border-bottom: #333;
+      
+      }
+       
+      
+      #page_3__footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-self: center;
+        color: #f4f4f4;
+        width: 100%;
+        min-height: 60%;
+        text-align: center;
+      }
+      #p3_footer_l > a {
+        color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+      #p3_footer_l {
+          width: 95%;
+          height: 25%;
+      }
+      #p3_footer_r {
+          width: 95%;
+          height: 25%;
+      }
+    #page_4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;    
+    }
+
+      #page_4_main_container {
+        width: 100%;
+        height: 40%;
+        background-color: #f4f4f4;
+        box-shadow: #333 10px 2px 20px 1px;
+      }
+      
+      #Page_4__main {
+        background: url("../img/matan-small.png") center center/cover no-repeat;
+        object-fit:contain;
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+        border-bottom: #333;
+      
+      }
+       
+      
+      #page_4__footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-self: center;
+        color: #f4f4f4;
+        width: 100%;
+        height: 60%;
+        text-align: center;
+      }
+      #p4_footer_l > a {
+        color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+      #p4_footer_l {
+          width: 95%;
+          height: 25%;
+      }
+      #p4_footer_r {
+          width: 95%;
+          height: 25%;
+      }
+    
+    #page_5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-self: center;    
+    }
+
+      #page_5_main_container {
+        width: 100%;
+        height: 40%;
+        background-color: #f4f4f4;
+        box-shadow: #333 10px 2px 20px 1px;
+      }
+      
+      #Page_5__main {
+        background: url("../img/Dima\ Page.jpg") center center/cover no-repeat;
+        object-fit:contain;
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+        border-bottom: #333;
+      }
+       
+      
+      #page_5__footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-self: center;
+        color: #f4f4f4;
+        width: 100%;
+        min-height: 60%;
+        text-align: center;
+      }
+      #p5_footer_l > a {
+        color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+      #p5_footer_l {
+          width: 95%;
+          height: 25%;
+          text-align: center;
+      }
+      #p5_footer_r {
+          width: 95%;
+          height: 25%;
+      }
+    
     .cards {
         width: 80%;
         padding: 0;
@@ -24,9 +288,9 @@
 }
 @media(max-width: 530px) {
     #aside-l {
+        display: none;
         width: 50px;
-        hight:100%;
-        
+        hight:100%;   
     }
     #nav_lobby:after {
         content: "Lobby";
@@ -68,7 +332,7 @@
     font-weight: 700;
     color: rgb(0, 0, 0);
     }
-#nav_page_5:after {
+    #nav_page_5:after {
     content: "Dima";
     position: fixed;
     left: 3px;
@@ -91,12 +355,10 @@
     width: 100%;
     max-height: 50%;
     text-align: start;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
     }
     [data-pages="footer_l"] {
     flex-direction: row;
-
     max-width: 100%;
     max-height: 50%;
     margin: 0;
@@ -126,8 +388,4 @@
         margin: 0;
         padding: 0;
     }
-    * {
-        max-width: 100vw;
-        box-sizing: border-box;}
-
-}
+    
