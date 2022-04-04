@@ -92,12 +92,25 @@ header{
     width: 100%;
     height: 50vh;
     background-color: #272727;
-    overflow: visible;
+    overflow: auto;
 }
 
 .container{
     max-width: 920px;
     margin: auto;
+}
+
+.nav_page{
+    padding: 32px 0;
+}
+
+.nav_page a{
+    transition: 0.8s;
+}
+
+.nav_page a:hover{
+    background-color: #ffffff;
+    opacity: 0.5;
 }
 
 #page1__container{
@@ -120,4 +133,19 @@ header{
 
 .my_pic img{
     border-radius: 50%;
+}
+
+.nav_page{
+    height: 100px;
+}
+
+.nav_page a{
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+    align-items: center;
+}
+
+.nav_page__p{
+    padding: 0 16px;
+    font-size: 42px;
 }
