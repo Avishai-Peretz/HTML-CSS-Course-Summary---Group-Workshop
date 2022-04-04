@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Josefin+Sans&display=swap');
+
 html{
     scroll-behavior: smooth;
 }
@@ -91,7 +93,6 @@ header{
 .cover{
     width: 100%;
     height: 50vh;
-    overflow: auto;
     margin: 0;
     padding: 0;
 
@@ -100,17 +101,11 @@ header{
 }
 
 .cover__backrounds{
-    background-image: url(https://media.giphy.com/media/8YBpKSm3uPWG9Ca0F4/giphy.gif);
+    background-image: url(https://media.giphy.com/media/1lvotGQwhzi6O0gQtV/giphy.gif);
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
     opacity: 0.2;
-}
-
-.cover__container{
-    background-color: #272727;
-    margin: 0;
-    padding: 0;
 }
 
 .container{
@@ -118,16 +113,41 @@ header{
     margin: auto;
 }
 
+.cover__container{
+    background-color: #272727;
+    margin: 0;
+    padding: 0;
+
+    overflow: auto;
+}
+
 .nav_page{
-    padding: 32px 0;
+    padding: 8px 0;
+    height: 100px;
 }
 
 .nav_page a{
     transition: 0.8s;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 12fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_page a i{
+    text-align: center;
+    font-size: 32px;
+}
+
+.nav_page__p{
+    padding: 0 16px;
+    font-size: 42px;
 }
 
 .nav_page a:hover{
     background-color: #ffffff;
+    color: #272727;
     opacity: 0.5;
 }
 
@@ -151,20 +171,4 @@ header{
 
 .my_pic img{
     border-radius: 50%;
-}
-
-.nav_page{
-    height: 100px;
-}
-
-.nav_page a{
-    display: grid;
-    grid-template-columns: 1fr 4fr 2fr;
-    align-items: center;
-}
-
-.nav_page__p{
-    padding: 0 16px;
-    font-size: 42px;
-    color: #ffffff;
 }
