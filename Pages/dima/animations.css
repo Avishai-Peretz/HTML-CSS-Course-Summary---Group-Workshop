@@ -1,7 +1,5 @@
 
 
-
-
 #list li:nth-child(1) {
 
     transition: all 4s ease;
@@ -9,8 +7,6 @@
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
-
-
 }
 
 #list li:nth-child(4) {
@@ -20,7 +16,6 @@
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
-
 }
 
 #list li:nth-child(2) {
@@ -30,8 +25,6 @@
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
-
-
 }
 
 #list li:nth-child(3) {
@@ -41,12 +34,49 @@
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
+}
 
-  
+footer span {
+    
+
+    transition: color 16s ease;
+    animation-name: colors ;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
 
 }
 
 
+@keyframes colors{
+
+
+    10%{
+        color: #ff0055        ;
+    }
+    20%{
+        color: #39ff14;
+    }
+
+    30%{
+            color: #00fdff;
+    }  
+
+    60%{
+        color:#ff000d;
+    }
+
+    70%{
+
+    }
+    90%{
+        color: #66ff00;
+    }
+
+    100%{
+        color:#be03fd;
+    }
+}
 
 
 @keyframes list-animation-left{
