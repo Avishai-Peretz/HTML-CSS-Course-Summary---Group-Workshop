@@ -355,14 +355,3 @@ p {
   padding: auto;
   margin: auto;
 }
-.background_pic_4 {
-  background: url(../img/matan-small.png) center center/cover no-repeat;
-  border-radius: 20px;
-  width: 100%;
-  height: 40%;
-}
-[data-pages="page-4"] {
-  background: url(../img/matan-large.png) center center/cover no-repeat;
-  width: 100%;
-  height: 75vh;
-}
