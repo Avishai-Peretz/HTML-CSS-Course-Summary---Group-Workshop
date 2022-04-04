@@ -1,0 +1,383 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gotham SSm;
+    scroll-behavior: smooth;   
+}
+
+
+
+
+
+body {
+    width: 100%;
+    position: relative;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; 
+
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Inline-Elements */
+h1 {
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: 'Gotham SSm', sans-serif;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+h3 {
+    font-size: 17px;
+    font-family: 'Gotham SSm', sans-serif;
+    font-weight: 400;
+    line-height: 20px
+}
+
+h4 {
+    font-size: 14px;
+    font-family: 'Gotham SSm', sans-serif;
+    line-height: 20px;
+}
+p {
+    font-size:14px;
+    font-weight:400;
+    line-height: 20px;
+}
+
+
+
+
+.pages {
+    width: 100%;
+    height: 100vh;
+} 
+/* ----Page_1---- */
+
+
+#navtop {
+        position: fixed;   
+}
+
+.navtop {
+    display: flex;   
+    width: 100vw;
+    min-height: 56px;
+    padding: 0 32px;
+    padding-top:20px;
+    opacity: 1;
+    transition: 1s;
+}
+
+
+#tesla_logo {
+    min-width: 122px;
+    margin-left: .9% ;
+    transition: 1s;
+}
+#tesla_logo a {
+    width:100%;
+    height: 100%;
+}
+
+#nav_top__center {
+    width: 624px;
+    transition: 1s;
+    height: 32px;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nav_top__center a{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#nav_top__center {
+    height: 32px;
+    flex-direction: row;
+    align-items: center;
+}
+#nav_top__center a {
+    display: block;
+    padding-top: 0%;
+}
+.nav_top_link:hover{
+    padding: 5px 20px;
+    background-color: #888 ;
+    border-radius: 20px ;
+    color: white;
+    opacity: 0.6;
+    transition: .3s;
+}
+
+#nav_top__right a{
+    padding: 4px 16px;
+    transition: 1s;
+}
+
+/* Main */
+#lobby {
+    background:url(../img/main-2.avif) center center/cover no-repeat;
+}
+.grid {
+    display: grid;
+    border: 3px red solid;
+    padding: 2% 5%;
+    height: 100vh;
+    grid-gap: .4vw;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    /* grid-display-area:
+    'card_1 spacer-1 card-2'
+    'card_3 card_4 card_5'; */
+
+}
+
+.spacer-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(145, 145, 255);
+    border-radius: 20px;
+    margin: 50% 8%;
+    opacity: 0.6;
+}
+.card_background {
+    background: url(https://source.unsplash.com/random/?Hacker) center center/cover no-repeat;
+    border-radius: 20px;
+    width: 100%;
+    height: 40%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 2%;
+    height: 40vh;
+    width:20vw;
+    background-color: #333;
+    opacity: 0.9;
+    border-radius: 20px;
+    box-shadow: rgb(100, 100, 100) 1px 1px 30px 0px ;
+}
+
+
+/* ----Pages---- */
+
+[data-pages="page-main"]{
+    background: url(https://source.unsplash.com/500x1000/?ninja) center center/cover;
+    width: 100%;
+    height: 75vh;
+    
+}
+
+
+[data-pages="footer"]{
+     max-width: 130vw;
+     height: 25%;
+     border-radius: 20px;
+
+ }
+
+[data-pages="footer_l"] {
+     width: 20vw;
+     margin-right: 7%; 
+     border-radius: 20px;
+ }
+
+
+ [data-pages="btn_2"] {
+     width: 100px;
+     
+ }
+
+
+
+[data-pages="footer_r"] {
+     width: 45%;
+     height: 100%;
+     text-align: start;
+     box-sizing: border-box;
+    
+ }
+
+
+[data-pages="footer_r"] p{
+     font-size: 1em;
+     box-sizing: border-box;
+ }
+
+
+[data-pages="footer_l"]:first-child {
+    max-width: 19.8%;
+    }
+
+[data-pages="footer_r"] {
+     max-height: 100%;
+    text-align: start;
+ }
+
+.aside_r_t {
+    display: none;
+    padding: 13px;
+    margin: 0;
+    background: url(../SVG/svgexport-24.svg) center center/contain no-repeat;
+    position: fixed;
+    font-size: 25px;
+    right: 30px;
+    top: 20px;
+    transition: color .33s ease;
+    cursor: pointer;
+    
+}
+
+.aside_r_t.shown {
+    display: block;
+}
+
+.aside_r_b {
+    padding: 10px;
+    margin: 0;
+    background: white url(../SVG/svgexport-29.svg) center center no-repeat;
+    border: 15px transparent solid;
+    border-radius: 50%;
+    position: fixed;
+    font-size: 25px;
+    right: 35px;
+    bottom: 80px;
+    box-shadow: rgb(100, 100, 100) 1px 1px 30px 0px ;
+    cursor: pointer;
+}
+
+
+
+#aside-l {
+    width: 1vw;
+    height: 28vh;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    font-size: 30px;
+    left: 0.7vw;
+    bottom: 35vh;
+    opacity: 1;
+    
+}
+.nav-con {
+    width: 100%;
+    height: 10%;
+    cursor: pointer;
+
+}
+
+.nav-page {
+    position: relative;
+    background-color: rgb(148, 145, 145);
+    width: 10%;
+    height: 100%;    
+}
+
+.nav-con a {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+
+#nav_page_1:hover::after {
+    content: "MODEL 3";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    opacity: 1;
+}
+
+#nav_page_2:hover::after {
+    content: "SAFETY";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    z-index: 15;
+}
+#nav_page_3:hover::after {
+    content: "PERFORMANCE";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+#nav_page_4:hover::after {
+    content: "ALL-WHEEL DRIVE";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+#nav_page_5:hover::after {
+    content: "RANGE";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+#nav_page_6:hover::after {
+    content: "AUTOPILOT";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+#nav_page_7:hover::after {
+    content: "INTERIOR";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+#nav_page_8:hover::after {
+    content: "SPECS";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+#nav_page_9:hover::after {
+    content: "ORDER";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+
+.top_nav_link{
+    height: 100%;
+    padding: auto;
+    margin: auto;
+}
