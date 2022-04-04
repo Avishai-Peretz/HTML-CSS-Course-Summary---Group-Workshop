@@ -50,7 +50,7 @@ p {
 
 .pages {
   width: 100%;
-  height: 100vh;
+  height: 100.2vh;
 }
 body {
   background-color: #333;
@@ -213,10 +213,18 @@ width: 100%;
     center center/cover no-repeat;
 }
 
+#page_4_main_container {
+  width: 100%;
+  height: 69%;
+  background-color: #f4f4f4;
+}
+
 #Page_4__main {
   background: url("../img/matan-large.png") center center/contain no-repeat;
   object-fit: fit;
+  height: 100%;
 }
+
 
 #card_4 {
   text-shadow: #333 3px 3px;
@@ -278,6 +286,7 @@ width: 100%;
 
 [data-pages="footer_l"]:first-child {
   max-width: 30%;
+  color: #f4f4f4;
 }
 
 [data-pages="footer_r"] {
