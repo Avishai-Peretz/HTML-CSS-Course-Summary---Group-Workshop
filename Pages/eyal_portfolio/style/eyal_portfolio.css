@@ -91,8 +91,26 @@ header{
 .cover{
     width: 100%;
     height: 50vh;
-    background-color: #272727;
     overflow: auto;
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.cover__backrounds{
+    background-image: url(https://media.giphy.com/media/8YBpKSm3uPWG9Ca0F4/giphy.gif);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+}
+
+.cover__container{
+    background-color: #272727;
+    margin: 0;
+    padding: 0;
 }
 
 .container{
@@ -148,4 +166,5 @@ header{
 .nav_page__p{
     padding: 0 16px;
     font-size: 42px;
+    color: #ffffff;
 }

@@ -112,6 +112,18 @@ p {
   height: 40%;
 }
 
+/* eyal */
+#Page_3__main {
+  background: url("../Pages/eyal_portfolio/images/IMG_3985.jpg") center center/contain no-repeat;
+  object-fit: fit;
+}
+
+#card_3 {
+  text-shadow: #333 3px 3px;
+  background: url("../Pages/eyal_portfolio/images/IMG_3985.jpg") center center/cover no-repeat;
+}
+
+
 /* dima card & page backgorung img */
 
 #Page_5__main {
