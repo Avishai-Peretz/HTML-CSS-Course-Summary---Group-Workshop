@@ -131,7 +131,7 @@ p {
 .grid {
     display: grid;
     border: 3px red solid;
-    padding: 2% 5%;
+    padding: 1% 5% 3% 5%;
     height: 100vh;
     grid-gap: .4vw;
     grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
@@ -162,9 +162,8 @@ p {
 .cards {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     text-align: center;
     color: white;
     margin: auto;
@@ -327,7 +326,7 @@ p {
     font-weight: 400;
     color: white; */
 
-#nav_page_1:hover::after {
+#nav_page_lobby:after {
     content: "Lobby";
     position: fixed;
     left: 20px;
@@ -335,7 +334,7 @@ p {
     font-weight: 400;
     color: white;
 }
-#nav_page_2:hover::after {
+#nav_page_1:after {
     content: "Avishai";
     position: fixed;
     left: 20px;
@@ -343,7 +342,7 @@ p {
     font-weight: 400;
     color: white;
 }
-#nav_page_3:hover::after {
+#nav_page_2:after {
     content: "Yanir";
     position: fixed;
     left: 20px;
@@ -351,7 +350,7 @@ p {
     font-weight: 400;
     color: white;
 }
-#nav_page_4:hover::after {
+#nav_page_3:after {
     content: "Eyal";
     position: fixed;
     left: 20px;
@@ -359,7 +358,7 @@ p {
     font-weight: 400;
     color: white;
 }
-#nav_page_5:hover::after {
+#nav_page_4:after {
     content: "Matan";
     position: fixed;
     left: 20px;
@@ -367,7 +366,7 @@ p {
     font-weight: 400;
     color: white;
 }
-#nav_page_6:hover::after {
+#nav_page_5:after {
     content: "Dima";
     position: fixed;
     left: 20px;
