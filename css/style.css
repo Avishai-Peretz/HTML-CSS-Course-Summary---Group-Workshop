@@ -381,3 +381,9 @@ p {
     padding: auto;
     margin: auto;
 }
+
+
+
+.dima-img-1{
+    background: url('../img/img-dima-1.jpg') no-repeat center center/cover;
+}

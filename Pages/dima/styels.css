@@ -6,11 +6,17 @@
     padding: 0;
     box-sizing: border-box;
 
-    color: aliceblue;
+    /* color: aliceblue; */
+
+    color: #00F5FB;
+    text-shadow: 1px 1px #00F5FB;
+    font-size: 19px;
+
+
     background-color: black;
 
     font-family: 'Dancing Script', cursive;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.25rem;
 }
 
 .grid {
