@@ -288,8 +288,8 @@ width: 100%;
   animation-timing-function: ease-out;
 }
 @keyframes animate-1 {
-  from { width: 0px;}
-  to { width: 100%;}
+  from { opacity: 0;}
+  to { opacity: 1;}
 }
 
 .cards:hover {
