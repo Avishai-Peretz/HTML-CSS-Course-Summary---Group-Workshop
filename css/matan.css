@@ -408,4 +408,11 @@ textarea {
       transform: translateY(100px);
     }
   }
+  #contact input,
+  textarea {
+    width: 90%;
+  }
+  .btn {
+    width: 90%;
+  }
 }
