@@ -282,8 +282,9 @@ src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-XLight_Web.w
     left:45%;
     font-size: 32px;
     border-radius: 50%;
-    color: #ffffff;
-    animation: arrow 2s infinite;
+    color: red;
+    animation: arrow 1s infinite;
+    animation-direction: alternate-reverse;
     transition: color 0.8s, background-color 0.4s;
 }
 .bright_arrow:hover{
@@ -293,6 +294,7 @@ src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-XLight_Web.w
     background-color: rgba(255, 255, 255, 0.2);
 }
 @keyframes arrow {
+    to {color: blue;}
     50%{transform: translateY(-30px);}
 }
 
