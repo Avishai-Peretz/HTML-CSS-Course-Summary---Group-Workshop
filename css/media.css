@@ -286,13 +286,15 @@
     #card_4 {order: 5;}
     #card_5 {order: 6;}
 
+    #aside-l {
+      display: none;
+      width: 50px;
+      hight:100%;   
+  }
+
 }
 @media(max-width: 530px) {
-    #aside-l {
-        display: none;
-        width: 50px;
-        hight:100%;   
-    }
+    
     #nav_lobby:after {
         content: "Lobby";
         position: fixed;
