@@ -33,7 +33,7 @@ p {
 
 /* General */
 header {
-  height: 70vh;
+  /* height: 70vh; */
 }
 header nav {
   background-color: #2c4c46;
