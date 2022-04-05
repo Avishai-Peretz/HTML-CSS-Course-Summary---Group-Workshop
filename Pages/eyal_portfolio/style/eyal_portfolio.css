@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Josefin+Sans&display=swap');
 
+/* *{
+    box-sizing: border-box;
+} */
+
 html{
     scroll-behavior: smooth;
 }
 
 body{
     font-family: 'Cabin', 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 a{
@@ -97,7 +103,7 @@ header{
     padding: 0;
 
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 920px 1fr;
 }
 
 .cover__backrounds{
@@ -121,28 +127,24 @@ header{
     overflow: auto;
 }
 
-.nav_page{
-    padding: 8px 0;
-    height: 100px;
-}
-
 .nav_page a{
+    padding: 8px;
     transition: 0.8s;
     color: #ffffff;
     display: grid;
-    grid-template-columns: 1fr 1fr 12fr;
+    grid-template-columns: 1fr 1fr 2fr 5fr 3fr;
     align-items: center;
     justify-content: center;
 }
 
 .nav_page a i{
     text-align: center;
-    font-size: 32px;
+    font-size: 24px;
 }
 
 .nav_page__p{
     padding: 0 16px;
-    font-size: 42px;
+    font-size: 20px;
 }
 
 .nav_page a:hover{
@@ -171,4 +173,21 @@ header{
 
 .my_pic img{
     border-radius: 50%;
+}
+
+
+@media screen and (max-width: 920px) {
+    .cover{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 8fr 1fr;
+    }
+
+    #page1__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: s;
+        gap: 8px;
+    }
 }
